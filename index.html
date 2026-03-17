@@ -1,22 +1,60 @@
-<nav class="sticky top-0 z-50 bg-white border-b border-gray-200">
-    <div class="bg-black text-white text-center py-2 text-xs uppercase tracking-widest">
-        Free 24-48 Hour Delivery to Continental USA 🇺🇸
-    </div>
-    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
-        <div class="text-3xl font-black tracking-tighter">ABITA HOME</div>
-        <div class="hidden md:flex space-x-8 font-medium text-sm">
-            <a href="#">BEDS</a>
-            <a href="#">MATTRESSES</a>
-            <a href="#">WARDROBES</a>
-            <a href="#">SOFAS</a>
-            <a href="#" class="text-red-600 font-bold">SALE</a>
-        </div>
-        <div class="flex items-center space-x-5">
-            <button class="hover:text-gray-500"><i class="fas fa-search"></i></button>
-            <button class="relative">
-                <i class="fas fa-shopping-cart text-xl"></i>
-                <span class="absolute -top-2 -right-2 bg-red-600 text-white text-[10px] rounded-full px-1.5">0</span>
-            </button>
-        </div>
-    </div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Abita Store</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100">
+
+<!-- Navbar -->
+<nav class="bg-white p-4 flex justify-between shadow">
+  <h1 class="text-xl font-bold">Abita Store</h1>
+  <div>
+    <a href="#" class="mx-2">Home</a>
+    <a href="#" class="mx-2">Shop</a>
+    <a href="#" class="mx-2">Contact</a>
+  </div>
 </nav>
+
+<!-- Hero -->
+<section class="text-center p-10 bg-gray-200">
+  <h2 class="text-3xl font-bold">Modern Home Collection</h2>
+  <p class="mt-2">Upgrade your living space</p>
+  <button class="mt-4 bg-black text-white px-6 py-2">Shop Now</button>
+</section>
+
+<!-- Products -->
+<section class="p-6 grid grid-cols-1 md:grid-cols-3 gap-6">
+
+  <div class="bg-white p-4 shadow">
+    <img src="https://via.placeholder.com/200">
+    <h3 class="mt-2 font-bold">Chair</h3>
+    <p>$120</p>
+    <button class="bg-black text-white px-4 py-1 mt-2">Buy</button>
+  </div>
+
+  <div class="bg-white p-4 shadow">
+    <img src="https://via.placeholder.com/200">
+    <h3 class="mt-2 font-bold">Table</h3>
+    <p>$250</p>
+    <button class="bg-black text-white px-4 py-1 mt-2">Buy</button>
+  </div>
+
+  <div class="bg-white p-4 shadow">
+    <img src="https://via.placeholder.com/200">
+    <h3 class="mt-2 font-bold">Lamp</h3>
+    <p>$80</p>
+    <button class="bg-black text-white px-4 py-1 mt-2">Buy</button>
+  </div>
+
+</section>
+
+<!-- Footer -->
+<footer class="bg-black text-white text-center p-4">
+  © 2026 Abita Store
+</footer>
+
+</body>
+</html>
