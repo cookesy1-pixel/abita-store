@@ -1,68 +1,22 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Abita Home Store | Premium Furniture USA</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-        .hero-bg { background: url('https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&q=80&w=1500'); background-size: cover; }
-    </style>
-</head>
-<body class="bg-gray-50">
-
-    <nav class="bg-white p-4 shadow-md flex justify-between items-center px-10">
-        <h1 class="text-2xl font-bold text-gray-800 tracking-tighter">ABITA HOME</h1>
-        <div class="space-x-6 hidden md:block">
-            <a href="#" class="hover:text-blue-600">Beds</a>
-            <a href="#" class="hover:text-blue-600">Living Room</a>
-            <a href="#" class="hover:text-blue-600">Dining</a>
-            <a href="#" class="hover:text-blue-600">Offers</a>
+<nav class="sticky top-0 z-50 bg-white border-b border-gray-200">
+    <div class="bg-black text-white text-center py-2 text-xs uppercase tracking-widest">
+        Free 24-48 Hour Delivery to Continental USA 🇺🇸
+    </div>
+    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+        <div class="text-3xl font-black tracking-tighter">ABITA HOME</div>
+        <div class="hidden md:flex space-x-8 font-medium text-sm">
+            <a href="#">BEDS</a>
+            <a href="#">MATTRESSES</a>
+            <a href="#">WARDROBES</a>
+            <a href="#">SOFAS</a>
+            <a href="#" class="text-red-600 font-bold">SALE</a>
         </div>
-        <button class="bg-black text-white px-5 py-2 rounded-full text-sm">Cart (0)</button>
-    </nav>
-
-    <header class="h-[500px] hero-bg flex items-center justify-center text-center text-white">
-        <div class="bg-black/40 p-10 rounded-lg backdrop-blur-sm">
-            <h2 class="text-5xl font-bold mb-4">Luxury Living, American Comfort.</h2>
-            <p class="text-xl mb-6">Free Shipping across the Continental USA.</p>
-            <a href="#shop" class="bg-white text-black px-8 py-3 font-semibold hover:bg-gray-200">Shop The Collection</a>
+        <div class="flex items-center space-x-5">
+            <button class="hover:text-gray-500"><i class="fas fa-search"></i></button>
+            <button class="relative">
+                <i class="fas fa-shopping-cart text-xl"></i>
+                <span class="absolute -top-2 -right-2 bg-red-600 text-white text-[10px] rounded-full px-1.5">0</span>
+            </button>
         </div>
-    </header>
-
-    <section id="shop" class="py-16 px-10">
-        <h3 class="text-3xl font-bold text-center mb-10">Featured Arrivals</h3>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div class="bg-white p-4 border rounded-lg shadow-sm hover:shadow-lg transition">
-                <div class="h-64 bg-gray-200 mb-4 rounded"></div>
-                <h4 class="font-bold">Abita Ottoman Storage Bed</h4>
-                <p class="text-blue-600 font-bold">$799.00</p>
-                <button class="w-full mt-4 border border-black py-2 hover:bg-black hover:text-white">View Details</button>
-            </div>
-            </div>
-    </section>
-
-    <section class="bg-gray-100 py-16 px-10">
-        <h3 class="text-3xl font-bold text-center mb-10">What Our US Customers Say</h3>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <div class="bg-white p-6 rounded shadow-sm italic">
-                <p>"Fastest delivery I've had in Texas. The velvet finish on the bed is top-tier."</p>
-                <span class="block mt-4 font-bold text-sm">— Sarah M., Austin, TX ⭐⭐⭐⭐⭐</span>
-            </div>
-            <div class="bg-white p-6 rounded shadow-sm italic">
-                <p>"Exactly like the photos. Easy assembly and the storage space is a lifesaver for my NYC apartment."</p>
-                <span class="block mt-4 font-bold text-sm">— James L., New York, NY ⭐⭐⭐⭐⭐</span>
-            </div>
-            <div class="bg-white p-6 rounded shadow-sm italic">
-                <p>"High quality at a fair price. Customer service responded to my WhatsApp in minutes."</p>
-                <span class="block mt-4 font-bold text-sm">— Robert K., Chicago, IL ⭐⭐⭐⭐⭐</span>
-            </div>
-        </div>
-    </section>
-
-    <footer class="bg-black text-white p-10 text-center">
-        <p>&copy; 2026 Abita Home Store USA. All rights reserved.</p>
-    </footer>
-
-</body>
-</html>
+    </div>
+</nav>
